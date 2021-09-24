@@ -1,0 +1,45 @@
+{
+  "name": "@akijoey/tsconfig",
+  "version": "1.0.0",
+  "description": "Personal typescript config.",
+  "keywords": [
+    "typescript"
+  ],
+  "repository": "github:akijoey/tsconfig",
+  "homepage": "https://github.com/akijoey/tsconfig#readme",
+  "bugs": "https://github.com/akijoey/tsconfig/issues",
+  "author": "AkiJoey <akijoey@akijoey.com> (https://akijoey.com)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "lint": "dev-scripts lint",
+    "test": "dev-scripts test",
+    "format": "dev-scripts format",
+    "prepare": "dev-scripts hook"
+  },
+  "devDependencies": {
+    "@akijoey/dev-scripts": "latest"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "@akijoey"
+  },
+  "prettier": "@akijoey/prettier-config",
+  "commitlint": {
+    "extends": "@akijoey/commitlint-config"
+  },
+  "release": {
+    "extends": "@akijoey/semantic-release-config"
+  },
+  "lint-staged": {
+    "*.js": "npm run lint",
+    "*.{js,json,yml}": "npm run format"
+  }
+}
