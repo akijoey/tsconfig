@@ -19,27 +19,16 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "lint": "dev-scripts lint",
-    "test": "dev-scripts test",
-    "format": "dev-scripts format",
-    "prepare": "dev-scripts hook"
+    "lint": "devkit lint",
+    "test": "devkit test",
+    "format": "devkit format",
+    "prepare": "devkit prepare",
+    "release": "devkit release"
+  },
+  "peerDependencies": {
+    "typescript": "^4.5.2"
   },
   "devDependencies": {
-    "@akijoey/dev-scripts": "latest"
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": "@akijoey"
-  },
-  "prettier": "@akijoey/prettier-config",
-  "commitlint": {
-    "extends": "@akijoey/commitlint-config"
-  },
-  "release": {
-    "extends": "@akijoey/semantic-release-config"
-  },
-  "lint-staged": {
-    "*.js": "npm run lint",
-    "*.{js,json,yml}": "npm run format"
+    "@akijoey/devkit": "latest"
   }
 }
