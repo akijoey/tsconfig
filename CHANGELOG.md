@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/akijoey/tsconfig/compare/v1.0.0...v1.0.1) (2021-12-08)
+
+
+### Bug Fixes
+
+* upgrade devkit ([ac94317](https://github.com/akijoey/tsconfig/commit/ac943175bc00c3fc4c3f34c9bba58d2139d52a97))
+
 # 1.0.0 (2021-09-24)
 
 
