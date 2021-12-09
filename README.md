@@ -17,7 +17,7 @@ Add to your tsconfig:
 
 ```json
 {
-  "extends": "@akijoey/tsconfig/tsconfig.json"
+  "extends": "@akijoey/tsconfig"
 }
 ```
 
