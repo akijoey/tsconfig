@@ -26,7 +26,7 @@
     "release": "devkit release"
   },
   "peerDependencies": {
-    "typescript": "^4.5.2"
+    "typescript": "^4.8.2"
   },
   "devDependencies": {
     "@akijoey/devkit": "latest"
