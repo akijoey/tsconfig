@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/akijoey/tsconfig/compare/v1.0.2...v1.0.3) (2022-08-29)
+
+
+### Bug Fixes
+
+* upgrade dependencies ([945602a](https://github.com/akijoey/tsconfig/commit/945602a2d8fb627ba45841ab8c5c73d1f1a361f4))
+
 ## [1.0.2](https://github.com/akijoey/tsconfig/compare/v1.0.1...v1.0.2) (2021-12-09)
 
 
