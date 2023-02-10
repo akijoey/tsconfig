@@ -27,7 +27,7 @@ Add to your tsconfig:
 
 [npm-image]: https://img.shields.io/npm/v/@akijoey/tsconfig
 [npm-url]: https://www.npmjs.com/package/@akijoey/tsconfig
-[build-image]: https://img.shields.io/github/workflow/status/akijoey/tsconfig/Build
+[build-image]: https://img.shields.io/github/actions/workflow/status/akijoey/tsconfig/build.yml
 [build-url]: https://github.com/akijoey/tsconfig/actions/workflows/build.yml
 [coverage-image]: https://img.shields.io/codecov/c/gh/akijoey/tsconfig
 [coverage-url]: https://codecov.io/gh/akijoey/tsconfig
