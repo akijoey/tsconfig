@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/akijoey/tsconfig/compare/v1.0.3...v1.0.4) (2023-02-10)
+
+
+### Bug Fixes
+
+* build badge ([a35afce](https://github.com/akijoey/tsconfig/commit/a35afce0b0a7fe5f15f2ec3afb94e67d1dc5837f))
+
 ## [1.0.3](https://github.com/akijoey/tsconfig/compare/v1.0.2...v1.0.3) (2022-08-29)
 
 
