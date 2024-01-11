@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/akijoey/tsconfig/compare/v1.0.4...v1.0.5) (2024-01-11)
+
+
+### Bug Fixes
+
+* update typescript version ([97a7b8b](https://github.com/akijoey/tsconfig/commit/97a7b8b807211f5610719849b3fbb79f21934ea2))
+
 ## [1.0.4](https://github.com/akijoey/tsconfig/compare/v1.0.3...v1.0.4) (2023-02-10)
 
 
